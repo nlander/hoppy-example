@@ -1,0 +1,9 @@
+resolver: lts-12.10
+packages:
+  - ./example
+  - ./example-generator
+  - ./example-cpp
+extra-deps:
+  - hoppy-runtime-0.5.1
+  - hoppy-generator-0.5.2
+  - hoppy-std-0.5.0
